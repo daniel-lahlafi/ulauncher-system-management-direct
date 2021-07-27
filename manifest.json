@@ -17,22 +17,22 @@
     {
       "id": "restart",
       "type": "keyword",
-      "name": "Reboot / Restart",
-      "default_value": "Reboot / Restart",
+      "name": "Reboot",
+      "default_value": "Reboot ",
       "description": "Restart the system"
     },
     {
       "id": "suspend",
       "type": "keyword",
-      "name": "Suspend / Sleep",
-      "default_value": "Suspend / Sleep",
+      "name": "Sleep",
+      "default_value": "Sleep",
       "description": "Put the system to sleep"
     },
     {
       "id": "shutdown",
       "type": "keyword",
-      "name": "Shut Down / Power Off",
-      "default_value": "Shut Down / Power Off",
+      "name": "Power off",
+      "default_value": "Power off",
       "description": "Shut down system"
     }
   ]

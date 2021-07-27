@@ -26,7 +26,7 @@ class KeywordQueryEventListener(EventListener):
 
   def on_match(self, id):
     if id == 'lock-screen':
-      subprocess.Popen(['loginctl', 'lock-session'])
+      subprocess.Popen(['lock', '-l'])
     if id == 'suspend':
       subprocess.Popen(['systemctl', 'suspend', '-i'])
     if id == 'shutdown':
